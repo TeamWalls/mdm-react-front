@@ -1,5 +1,6 @@
 :root{
     --color-main:#28bbff ;
+    --color-shadow:#ddddddbd;
 }
 
 .conten{
@@ -44,7 +45,7 @@
     border-radius:50px;
     background-color: var(--color-main);
     border: none;
-    box-shadow:  0 2px 1px 2px #ddddddbd;
+    box-shadow:  0 2px 1px 2px var(--color-shadow);
 }
 
 .position-recovery{
