@@ -19,6 +19,7 @@
   height: 100%;
   display: grid;
   place-items: center;
+  grid-template-rows: 50% 12% 12% 12% 14% ;
 }
 .input-data-us,.input-data-pa{
     width: 280px;
@@ -59,4 +60,8 @@
    text-decoration: none;
    color: var(--color-main);
    font-size: small;
+}
+
+.title-h3{
+    margin: 14px 0;
 }

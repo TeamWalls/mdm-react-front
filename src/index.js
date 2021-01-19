@@ -1,18 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './components/App.js';
 import Login from './components/login.js'
 import reportWebVitals from './components/reportWebVitals.js';
+import Router from './components/Route.js';
+import ControlPanel from './components/ControlPanel.js'
 
 document.getElementById('root').className+="root";
 ReactDOM.render(
-  /*
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-  */
-   <Login></Login>
+  <Router /> 
   ,
   document.getElementById('root')
 );
@@ -21,3 +17,5 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
